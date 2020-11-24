@@ -19,6 +19,11 @@ headers.append('Content-Type:', 'application/json')
     })
 
     // Contact form management
-    const form = document.getElementById("contact-form")
-    
+    const form = document.getElementById("contact-form");
+
+    form.addEventListener('submit', (e) => {
+        alert('Hey');
+        e.preventDefault();
+        console.log(e);
+    });
 })()
