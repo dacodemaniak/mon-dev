@@ -1,3 +1,2 @@
-# keep my environement varaibles every merge
-
-.env merge= ours
+# Keep my environment variables every merge
+.env merge=ours
