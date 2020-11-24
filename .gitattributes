@@ -1,0 +1,3 @@
+# keep my environement varaibles every merge
+
+.env merge= ours
