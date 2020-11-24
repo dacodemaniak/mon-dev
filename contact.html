@@ -3,30 +3,37 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Git</title>
-        <meta name="description" content="La belle description pour les SEO maniaques">
+        <title>Contact</title>
         <link href="./assets/css/styles.css" rel="stylesheet">
+        <link href="./assets/css/form.css" rel="stylesheet">
+        <script> 
+            $(function(){
+              $("#includedContent").load("footer.html"); 
+            });
+        </script>
     </head>
     <body>
         <div class="container-fluid">
-            <h1>Git</h1>
-            <h2>Test</h2>
+            <h1>Contact</h1>
 
-            <section class="wrapper">
-                <nav>
-                    <ul>
-                        <li>Travail</li>
-                        <li>Collab</li>
-                    </ul>   
-                </nav>
-            </section>
+            <div class="wrapper">
+                <form action="#" method="post" id="contact-form">
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">e-mail :</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="msg">Message :</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
             
-            <main>
-                <div>
-                    Ceci est un test de contenu
-                </div>
-            </main>
-
             <footer>
                 <ul class="list-unstyled">
                     <li>
@@ -54,6 +61,8 @@
                 </div>
             </div>
         </template>
-        <script src="./assets/js/main.js" type="module"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
+
+

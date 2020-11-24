@@ -1,0 +1,51 @@
+/**
+ * Imports
+ */
+ 
+@import './spinner-loader.css';
+
+
+/**
+ * Bases
+ */
+:root {
+    --primary: #fff;
+    --secondary: #999;
+}
+html {
+    height: 100%;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+}
+html, body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+body {
+    overflow-x: hidden;
+}
+body * {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+::selection {
+background-color: #f48120;
+color: #fff;
+}
+
+
+/**
+ * Wrapper
+ */
+
+.wrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
