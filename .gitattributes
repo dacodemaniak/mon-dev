@@ -1,0 +1,2 @@
+# Keep my env file
+.env merge=ours
