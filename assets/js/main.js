@@ -18,5 +18,7 @@ headers.append('Content-Type:', 'application/json')
         
     })
 
-    const form = document.getElementById('contact-form');
+    // Contact form management
+    const form = document.getElementById("contact-form")
+    
 })()
