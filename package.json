@@ -1,0 +1,23 @@
+{
+  "name": "new-dev",
+  "version": "1.0.0",
+  "description": "Well let's play with node modules",
+  "main": "./assets/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacodemaniak/mon-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacodemaniak/mon-dev/issues"
+  },
+  "homepage": "https://github.com/dacodemaniak/mon-dev#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
