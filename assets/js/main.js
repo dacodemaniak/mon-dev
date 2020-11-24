@@ -1,10 +1,11 @@
 const headers = new Headers()
-headers.append('Content-Type:', 'application/json')
+headers.append('Content-Type', 'application/json');
 
 (() => {
     console.log(`Hi all, i'm working`)
 
     // Well, load the template till app load
+    /*
     fetch (
         `https://localhost/api/v2/loadOfThings`,
         {
@@ -17,12 +18,13 @@ headers.append('Content-Type:', 'application/json')
     .then((data) => {
         
     })
+    */
 
     // Contact form management
     const form = document.getElementById("contact-form");
-
     form.addEventListener('submit', (e) => {
-        alert('Hey');
+        let name = document.getElementsByName("name");
+        alert(`Merci ${name[0].value} d'avoir contribué à notre formation GIT.`);
         e.preventDefault();
         console.log(e);
     });
