@@ -6,25 +6,35 @@
         <title>Contact</title>
         <link href="./assets/css/styles.css" rel="stylesheet">
         <link href="./assets/css/form.css" rel="stylesheet">
+        <script> 
+            $(function(){
+              $("#includedContent").load("footer.html"); 
+            });
+        </script>
     </head>
     <body>
         <div class="container-fluid">
-            <h1>Git</h1>
-            <h2>Test</h2>
+            <h1>Contact</h1>
 
-            <form method="post" action="" id="contact-form">
-                <div class="form-group">
-                    <input class="form-control" name="name" placeholder="Votre nom">
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-outline-success">
-                        Envoyer
-                    </button>
-                </div>
-            </form>
+            <div class="wrapper">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">e-mail :</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="msg">Message :</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                </form>
+            </div>
             
             <footer>
-                Mentions Légales Plan
+                <div id="includedContent"></div>
             </footer>
         </div>
         <template id="spinner-loader">
@@ -41,3 +51,5 @@
         <script src="./assets/js/main.js"></script>
     </body>
 </html>
+
+
